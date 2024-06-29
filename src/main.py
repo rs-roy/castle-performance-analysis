@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import csv
+import execution_logger
 
 import app
 
@@ -130,7 +131,8 @@ def main():
     if(n_users == 1):
         output_file = "anonymization_" + str(n_users) + "users_" + "_PID" + str(user_id) + "_" + year + "-" + month\
                             + "_delta" + str_delta + "_k" + str(stream.k) + "_sample" + str(sample_size)\
-                            + "_headers-" + header_str + "_seed" + str(seed) + ".csv"  
+                            + "_headers-" + header_str + "_seed" + str(seed) + ".csv"
+    kk= str(stream.k)    
                             
     if(transformed_date):
         output_file = "transformed_date_" + output_file
@@ -157,7 +159,9 @@ def main():
     
     end_time = dt.datetime.now()
     print("END: ", dt.datetime.now())
-    print("Execution_Time: ", end_time-start_time)
+    execution_time = end_time-start_time
+    print("Execution_Time: ", execution_time)
+    execution_logger.logger.info(f"k={str(stream.k)}, delta={str_delta}, sample_size={str(sample_size)}, Execution_Time={execution_time}")
     
     if args.display:
         display_visualisation(stream)
