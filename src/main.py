@@ -1,7 +1,10 @@
 import numpy as np
 import pandas as pd
 import csv
+
 import execution_logger
+import cProfile
+import pstats
 
 import app
 
@@ -167,4 +170,9 @@ def main():
         display_visualisation(stream)
 
 if __name__ == "__main__":
-    main()
+    with cProfile.Profile() as profile:
+        main()
+    results = pstats.Stats(profile)
+    results.sort_stats(pstats.SortKey.CUMULATIVE)
+    results.print_stats()
+    results.dump_stats("castle.profile")
