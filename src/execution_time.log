@@ -1,1 +1,24 @@
-2024/06/30 01:34:13 AM INFO - k=20, delta=30, sample_size=500, Execution_Time=0:00:02.500954
+2024/06/26 01:53:58 AM INFO - k=10, delta=50, sample_size=10000, Execution_Time=0:00:43.279117
+2024/06/26 02:42:10 AM INFO - k=10, delta=50, sample_size=40000, Execution_Time=0:03:15.986054
+2024/06/26 11:00:11 AM INFO - k=10, delta=50, sample_size=80000, Execution_Time=0:06:45.465865
+2024/06/29 11:03:04 AM INFO - k=10, delta=100, sample_size=10000, Execution_Time=0:00:43.855093
+2024/06/29 11:08:47 AM INFO - k=10, delta=100, sample_size=40000, Execution_Time=0:05:17.010620
+2024/06/29 11:14:58 AM INFO - k=10, delta=400, sample_size=40000, Execution_Time=0:05:07.983713
+2024/07/28 11:26:36 AM INFO - k=10, delta=800, sample_size=40000, Execution_Time=0:05:55.477983
+2024/07/28 11:41:04 AM INFO - k=10, delta=1600, sample_size=40000, Execution_Time=0:09:41.649716
+
+2024/06/26 01:55:38 AM INFO - k=40, delta=50, sample_size=10000, Execution_Time=0:00:35.611952
+2024/06/26 03:09:16 AM INFO - k=40, delta=100, sample_size=40000, Execution_Time=0:02:48.660826
+2024/06/30 03:24:11 AM INFO - k=40, delta=400, sample_size=40000, Execution_Time=0:05:57.906784
+2024/06/30 03:33:56 AM INFO - k=40, delta=800, sample_size=40000, Execution_Time=0:06:20.083851
+2024/06/30 10:39:58 PM INFO - k=40, delta=800, sample_size=10000, Execution_Time=0:01:50.365431
+2024/06/30 10:46:36 PM INFO - k=40, delta=1600, sample_size=10000, Execution_Time=0:03:35.279795
+2024/06/30 10:59:03 PM INFO - k=40, delta=3200, sample_size=10000, Execution_Time=0:09:47.319127
+2024/06/30 11:35:21 PM INFO - k=40, delta=6400, sample_size=10000, Execution_Time=0:31:22.666742
+2024/06/28 12:27:27 AM INFO - k=40, delta=11840, sample_size=10000, Execution_Time=0:48:18.442728
+
+2024/06/26 01:56:32 AM INFO - k=50, delta=50, sample_size=10000, Execution_Time=0:00:35.937250
+2024/06/27 01:58:15 AM INFO - k=50, delta=50, sample_size=20000, Execution_Time=0:01:13.654965
+2024/06/27 02:01:18 AM INFO - k=50, delta=50, sample_size=40000, Execution_Time=0:02:28.366952
+2024/06/28 02:18:36 AM INFO - k=50, delta=50, sample_size=80000, Execution_Time=0:05:02.502726
+2024/06/28 02:30:01 AM INFO - k=50, delta=50, sample_size=160000, Execution_Time=0:10:03.320054
