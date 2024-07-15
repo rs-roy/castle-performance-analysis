@@ -1,7 +1,8 @@
 #!/bin/bash -
+
 echo "set parameters"
 
-a_k=(10 25 50 100)
+a_k=(10 25 50)
 a_d=(100)
 beta=200000 # do not want this parameter to influence the results
 mu=100000
@@ -25,10 +26,8 @@ do
     do
         echo $k
         echo $d
-        python3 main.py --k $k --sample-size 0 --delta $d --beta $beta --mu $mu --l $l --tkc $tkc --disable-dp --year $year --month $month --n_users $n_users -f $filename
+        python3 main.py --k $k --sample-size 40000 --delta $d --beta $beta --mu $mu --l $l --tkc $tkc --disable-dp --year $year --month $month --n_users $n_users -f $filename
     done
 done
 
 echo "finished successfully"
-
-

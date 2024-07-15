@@ -173,6 +173,7 @@ if __name__ == "__main__":
     with cProfile.Profile() as profile:
         main()
     results = pstats.Stats(profile)
-    results.sort_stats(pstats.SortKey.CUMULATIVE)
-    results.print_stats()
-    results.dump_stats("castle.profile")
+    #results.print_stats()
+    #results.dump_stats("castle.profile")
+    #results.sort_stats(pstats.SortKey.CUMULATIVE).print_stats(15)   #Sorted by cumulative time to understand what algorithms are taking time, 
+    results.sort_stats(pstats.SortKey.TIME).print_stats(15)         #Sorted by time to see what functions were looping a lot, and taking a lot of time

@@ -17,8 +17,37 @@
 2024/06/30 11:35:21 PM INFO - k=40, delta=6400, sample_size=10000, Execution_Time=0:31:22.666742
 2024/06/28 12:27:27 AM INFO - k=40, delta=11840, sample_size=10000, Execution_Time=0:48:18.442728
 
-2024/06/26 01:56:32 AM INFO - k=50, delta=50, sample_size=10000, Execution_Time=0:00:35.937250
-2024/06/27 01:58:15 AM INFO - k=50, delta=50, sample_size=20000, Execution_Time=0:01:13.654965
-2024/06/27 02:01:18 AM INFO - k=50, delta=50, sample_size=40000, Execution_Time=0:02:28.366952
-2024/06/28 02:18:36 AM INFO - k=50, delta=50, sample_size=80000, Execution_Time=0:05:02.502726
-2024/06/28 02:30:01 AM INFO - k=50, delta=50, sample_size=160000, Execution_Time=0:10:03.320054
+
+2024/07/07 04:09:50 PM INFO - k=10, delta=50, sample_size=40000, Execution_Time=0:08:22.450892
+2024/07/07 04:15:30 PM INFO - k=20, delta=50, sample_size=40000, Execution_Time=0:05:36.404509
+2024/07/07 04:21:06 PM INFO - k=40, delta=50, sample_size=40000, Execution_Time=0:05:34.004082
+
+2024/07/07 04:37:57 PM INFO - k=10, delta=100, sample_size=40000, Execution_Time=0:16:47.488300
+2024/07/06 01:06:18 AM INFO - k=10, delta=100, sample_size=40000, Execution_Time=0:15:54.294742
+2024/07/07 04:45:52 PM INFO - k=20, delta=100, sample_size=40000, Execution_Time=0:07:52.949762
+2024/07/06 01:13:57 AM INFO - k=25, delta=100, sample_size=40000, Execution_Time=0:07:36.408701
+2024/07/07 04:52:38 PM INFO - k=40, delta=100, sample_size=40000, Execution_Time=0:06:42.396205
+2024/07/06 01:20:41 AM INFO - k=50, delta=100, sample_size=40000, Execution_Time=0:06:41.198252
+
+2024/07/06 12:27:43 AM INFO - k=10, delta=200, sample_size=40000, Execution_Time=0:13:01.825356
+2024/07/07 05:05:50 PM INFO - k=10, delta=200, sample_size=40000, Execution_Time=0:13:09.425006
+2024/07/07 05:14:04 PM INFO - k=20, delta=200, sample_size=40000, Execution_Time=0:08:11.455366
+2024/07/06 12:39:23 AM INFO - k=25, delta=200, sample_size=40000, Execution_Time=0:11:36.837886
+2024/07/07 05:22:50 PM INFO - k=40, delta=200, sample_size=40000, Execution_Time=0:08:43.036109
+2024/07/06 12:48:05 AM INFO - k=50, delta=200, sample_size=40000, Execution_Time=0:08:39.497964
+2024/07/16 01:00:30 AM INFO - k=100, delta=200, sample_size=40000, Execution_Time=0:08:57.388365
+
+
+2024/07/11 01:56:32 AM INFO - k=50, delta=50, sample_size=10000, Execution_Time=0:00:35.937250
+2024/07/08 01:58:15 AM INFO - k=50, delta=50, sample_size=20000, Execution_Time=0:01:13.654965
+2024/07/11 02:01:18 AM INFO - k=50, delta=50, sample_size=40000, Execution_Time=0:02:28.366952
+2024/07/11 12:18:36 PM INFO - k=50, delta=50, sample_size=80000, Execution_Time=0:05:02.502726
+2024/07/11 12:30:01 PM INFO - k=50, delta=50, sample_size=160000, Execution_Time=0:10:03.320054
+
+2024/07/13 11:08:07 AM INFO - k=50, delta=50, sample_size=10000, Execution_Time=0:01:22.326727
+2024/07/13 11:11:25 AM INFO - k=50, delta=50, sample_size=20000, Execution_Time=0:02:40.839037
+2024/07/13 11:17:25 AM INFO - k=50, delta=50, sample_size=40000, Execution_Time=0:05:31.610072
+2024/07/14 12:39:27 AM INFO - k=50, delta=50, sample_size=40000, Execution_Time=0:05:42.381385
+2024/07/14 11:31:02 AM INFO - k=50, delta=50, sample_size=80000, Execution_Time=0:11:11.989275
+2024/07/14 11:55:30 AM INFO - k=50, delta=50, sample_size=160000, Execution_Time=0:22:08.896017
+
