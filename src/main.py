@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 import csv
 
+from memory_profiler import profile
+
 import execution_logger
 import cProfile
 import pstats
@@ -20,6 +22,7 @@ def handler(value: pd.Series):
 create a csv file to save published clusters for later analysis
 TODO: headers and order of columns have to be adapted manually if simulation structure/results change
 """
+
 def create_csvfile(output_file, headers, n_users):
     # non-modified data
     col_names = ["consumption", "year"]
@@ -51,8 +54,9 @@ def create_csvfile(output_file, headers, n_users):
         writer = csv.writer(csvfile, delimiter=",")
         writer.writerow(col_names)
 
-
+@profile
 def main():
+    
     ### adapted simulation call for dataset with ### Eletricity consumption ###
     args = app.parse_args()
     print("args: {}".format(args))
@@ -176,4 +180,4 @@ if __name__ == "__main__":
     #results.print_stats()
     #results.dump_stats("castle.profile")
     #results.sort_stats(pstats.SortKey.CUMULATIVE).print_stats(15)   #Sorted by cumulative time to understand what algorithms are taking time, 
-    results.sort_stats(pstats.SortKey.TIME).print_stats(15)         #Sorted by time to see what functions were looping a lot, and taking a lot of time
+    results.sort_stats(pstats.SortKey.TIME).print_stats(10)         #Sorted by time to see what functions were looping a lot, and taking a lot of time
