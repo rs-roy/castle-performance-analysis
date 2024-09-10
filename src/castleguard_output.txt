@@ -1,0 +1,6 @@
+set parameters
+start bash script now
+5
+100
+PuTTY X11 proxy: unable to connect to forwarded X server: Network error: Connection refused
+

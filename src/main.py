@@ -2,8 +2,6 @@ import numpy as np
 import pandas as pd
 import csv
 
-from memory_profiler import profile
-
 import execution_logger
 import cProfile
 import pstats
@@ -54,7 +52,6 @@ def create_csvfile(output_file, headers, n_users):
         writer = csv.writer(csvfile, delimiter=",")
         writer.writerow(col_names)
 
-@profile
 def main():
     
     ### adapted simulation call for dataset with ### Eletricity consumption ###

@@ -2,7 +2,7 @@
 
 echo "set parameters"
 
-a_k=(5 10 25 50 100 200)
+a_k=(5 10 25 50 100)
 a_d=(200)
 beta=200000 # do not want this parameter to influence the results
 mu=100000
