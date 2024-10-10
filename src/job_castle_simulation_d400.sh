@@ -2,7 +2,7 @@
 
 echo "set parameters"
 
-a_k=(5 10 25 50 100 200)
+a_k=(5 10 25 50 100 200 400)
 a_d=(400)
 beta=200000 # do not want this parameter to influence the results
 mu=100000
@@ -16,8 +16,6 @@ month="11"
 norm_il=0
 max_header="week"
 filename="transformed_date_2014-11-eletricity_consumption_sample_164102.csv"
-
-echo "start bash script now"
 
 ### all users simulation for centralized scenario
 for d in "${a_d[@]}"
