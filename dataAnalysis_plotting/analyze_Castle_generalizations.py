@@ -287,11 +287,11 @@ def main():
 
     year = "2014"
     month = "11"
-    sample_size = 164102 
+    sample_size = 40000 
     seed = 42
     
-    l_delta = [100, 200, 400] 
-    l_k = [10, 25, 50, 100]
+    l_delta = [800, 1600, 3200, 6400] 
+    l_k = [100]
     n_users = 370
     
     transformed_date = True
