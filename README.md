@@ -1,1 +1,2 @@
 # castle-performance-analysis
+This repository is created to study the performance analysis of CASTLE algorithm. The base implementation is taken from [CASTELGUARD] (https://github.com/hallnath1/CASTLEGUARD) and it is subsequently adapted in another repository [dpm-castle-analysis] (https://github.com/carolin-brunn/dpm-castle-analysis) which is cloned. Most of the credits are due to the original authors. All of our simulation and evaluation files are kept inside the anonymized_data folder and some new files are created inside src.    
